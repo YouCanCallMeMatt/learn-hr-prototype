@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Comic Sans MS', 'sans-serif'], // Add Comic Sans here
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
